@@ -10,8 +10,9 @@ export function ThemeProvider ({
   children
 }: ThemeProviderProps) {
   return (
-    <NativeThemeProvider theme={defaultTheme}>
-      {children}
-    </NativeThemeProvider>
+    // <NativeThemeProvider theme={defaultTheme}>
+    //   {children}
+    // </NativeThemeProvider>
+    <div>{children}</div>
   )
 }
